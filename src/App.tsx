@@ -23,8 +23,8 @@ function App() {
             {id: v1() , title: "React", isDone: false}
         ]
     )
-    // const tasks = array[0]
-    // const setTasks = array[1]
+
+
     function changeToDoListFilter(filterValue:FilterValuesType) {
         setFilter(filterValue)
     }
@@ -52,6 +52,10 @@ function App() {
                 return tasks
         }
     }
+    function checkValueTask(taskId:string ,isDone:boolean) {
+        const updatedTasks =tasks.map(t =>  t.id===taskId ? {...t ,isDone:isDone } : t )
+        setTasks(updatedTasks)
+    }
 
     return (
 
@@ -61,6 +65,8 @@ function App() {
                       removeTask={removeTask}
                       changeToDoListFilter={changeToDoListFilter}
                       addTask={addTask}
+                      filter={filter}
+                      checkValueTask={checkValueTask}
             />
 
 
