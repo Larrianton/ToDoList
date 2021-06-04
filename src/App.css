@@ -8,14 +8,14 @@
 }
 
 .is-done {
-  opacity:0.5;
+  opacity: 0.5;
 }
+
 .active-filter {
-  background-color: aqua;
+  background-color: cornflowerblue;
 }
+
 .error {
-    border: red solid 1px;
-}
-.error-message {
-    color: red;
+  border: 2px solid red;
+  outline: none;
 }
