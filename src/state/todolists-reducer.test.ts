@@ -1,5 +1,5 @@
 import {
-    ActionType,
+    ActionType, AddTodoListAС,
     ChangeTodoListFilterAC,
     ChangeTodoListTitleAC,
     RemoveTodoListAC,
@@ -33,7 +33,7 @@ test('correct todolist should be added', () => {
         {id: todolistId2, title: "What to buy", filter: "all"}
     ]
 
-    const endState = todoListsReducer(startState, {type: 'ADD-TODOLIST', title: newTodolistTitle})
+    const endState = todoListsReducer(startState,  AddTodoListAС(newTodolistTitle))
 
     expect(endState.length).toBe(3);
     expect(endState[2].title).toBe(newTodolistTitle);
