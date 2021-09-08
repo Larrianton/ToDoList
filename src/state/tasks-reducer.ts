@@ -1,6 +1,6 @@
 import {TasksStateType, TaskType} from "../App";
 import {v1} from "uuid";
-import {AddTodoListAT, RemoveTodoListAC, RemoveTodoListAT} from "./todolists-reducer";
+import {AddTodoListAT, RemoveTodoListAT, todoListID_1, todoListID_2} from "./todolists-reducer";
 
 type RemoveTaskAT = {
     type: "REMOVE-TASK"
@@ -26,10 +26,29 @@ type AddTaskAT = {
     todoListId: string
     title: string
 }
-const InitialState = {}
 
-export type ActionType = RemoveTaskAT | ChangeTaskStatusAT | AddTaskAT | ChangeTaskTitleAT | AddTodoListAT | RemoveTodoListAT
-export const tasksReducer = (state: TasksStateType = InitialState, action: ActionType): TasksStateType => {
+
+const InitialState: TasksStateType = {
+    [todoListID_1]: [
+        {id: v1(), title: "JS", isDone: false},
+        {id: v1(), title: "CSS", isDone: false},
+        {id: v1(), title: "HTML", isDone: true},
+    ],
+    [todoListID_2]: [
+        {id: v1(), title: "Milk", isDone: false},
+        {id: v1(), title: "Bread", isDone: false},
+        {id: v1(), title: "Meat", isDone: true},
+    ],
+}
+
+export type ActionType =
+    RemoveTaskAT
+    | ChangeTaskStatusAT
+    | AddTaskAT
+    | ChangeTaskTitleAT
+    | AddTodoListAT
+    | RemoveTodoListAT
+export const tasksReducer = (state = InitialState, action: ActionType): TasksStateType => {
     switch (action.type) {
         case "REMOVE-TASK":
             return {
@@ -50,19 +69,25 @@ export const tasksReducer = (state: TasksStateType = InitialState, action: Actio
         case "CHANGE-TASK-STATUS" :
             return {
                 ...state,
-                [action.todoListId]: state[action.todoListId].map(t => t.id === action.taskId ? {...t,isDone: action.isDone} : t)
+                [action.todoListId]: state[action.todoListId].map(t => t.id === action.taskId ? {
+                    ...t,
+                    isDone: action.isDone
+                } : t)
             }
         case "CHANGE-TASK-TITLE":
             return {
                 ...state,
-                [action.todoListId]: state[action.todoListId].map(t => t.id === action.taskId ? {...t, title:action.title} : t )
+                [action.todoListId]: state[action.todoListId].map(t => t.id === action.taskId ? {
+                    ...t,
+                    title: action.title
+                } : t)
             }
-            case "ADD-TODOLIST":
+        case "ADD-TODOLIST":
             return {
                 ...state,
-                [action.todoListId]:[]
+                [action.todoListId] : []
             }
-            case "REMOVE-TODOLIST":
+        case "REMOVE-TODOLIST":
 
             let newState = {...state}
             delete newState[action.todoListId]
@@ -70,7 +95,8 @@ export const tasksReducer = (state: TasksStateType = InitialState, action: Actio
         default:
             return state
 
-    }}
+    }
+}
 export const removeTaskAC = (taskId: string, todoListId: string): RemoveTaskAT => {
     return {
         type: "REMOVE-TASK",
@@ -91,7 +117,7 @@ export const changeTaskStatusAС = (taskId: string, isDone: boolean, todoListId:
 export const changeTaskTitleAС = (taskId: string, title: string, todoListId: string): ChangeTaskTitleAT => {
     return {
         type: "CHANGE-TASK-TITLE",
-        title:title,
+        title: title,
         todoListId,
         taskId
     }
@@ -100,6 +126,6 @@ export const addTaskAC = (title: string, todoListId: string): AddTaskAT => {
     return {
         type: "ADD-TASK",
         todoListId,
-        title:title
+        title: title
     }
 }
