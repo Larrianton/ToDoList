@@ -11,7 +11,7 @@ export default {
 } as ComponentMeta<typeof AppWithRedux>;
 
 
-const AppWithReduxFormTemplate: ComponentStory<typeof AppWithRedux> = (args) => <AppWithRedux/>;
+const AppWithReduxFormTemplate: ComponentStory<typeof AppWithRedux> = () => <AppWithRedux/>;
 
 export const AppWithReduxStory = AppWithReduxFormTemplate.bind({});
 AppWithReduxStory.args = {};
