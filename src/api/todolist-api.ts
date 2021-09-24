@@ -4,14 +4,14 @@ const instance = axios.create({
     baseURL: 'https://social-network.samuraijs.com/api/1.1/',
     withCredentials: true,
     headers: {
-        'API-KEY': '50ce9562-504b-455c-9d4f-2670455fd5d4'
+        'API-KEY': '782f4d9b-26da-4de6-a9b8-fe796409ea63'
     }
 })
 type TodoType = {
-    id: "9f27f97b-bc63-4114-9baa-c91facbd4ffb",
-    title: "what todo"
-    addedDate: "2019-07-30T12:24:15.063",
-    order: 0
+    id: string,
+    title: string,
+    addedDate: string,
+    order: number
 }
 
 

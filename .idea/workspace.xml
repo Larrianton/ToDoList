@@ -19,68 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1666d4de-ef45-4fe6-98a6-e189c1bdd00b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/it-incubator-todolist-ts-01.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/todolist-api.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reportWebVitals.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/todolists-api.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Todolist-Storybook.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.storybook/preview.js" beforeDir="false" afterPath="$PROJECT_DIR$/.storybook/preview.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/integration/__image_snapshots__/app-test-js-add-item-form-base-example-visually-looks-correct-1-snap.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/integration/app.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/integration/jest.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/integration/setupTests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.idea/src.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AddItemForm.stories.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AddItemForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/AddItemForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppWithRedux.stories.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppWithRedux.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppWithUseReducer.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EditableSpan.stories.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EditableSpan.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/EditableSpan.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task.stories.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ToDoList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ToDoList.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/serviceWorker.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/setupTests.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/state/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/store.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/state/tasks-reducer.test.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/state/tasks-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/tasks-reducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/state/todolists-reducer.test.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/state/todolists-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/todolists-reducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/state/todolists-tasks-reducer.test.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/Button.stories.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/Button.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/Header.stories.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/Header.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/Introduction.stories.mdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/Page.stories.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/Page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/ReduxStoreProviderDecorator.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/assets/code-brackets.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/assets/colors.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/assets/comments.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/assets/direction.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/assets/flow.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/assets/plugin.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/assets/repo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/assets/stackalt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/button.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/header.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/page.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    <list default="true" id="1666d4de-ef45-4fe6-98a6-e189c1bdd00b" name="Default Changelist" comment="update project, add axios, add requests for todoLists">
+      <change afterPath="$PROJECT_DIR$/src/api/tasks-api.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/tasks-api.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/todolist-api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/todolist-api.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,6 +47,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/api" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -111,6 +56,29 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="ts.external.directory.path" value="D:\it-incubator-todolist-ts-01\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\it-incubator-todolist-ts-01\src\api" />
+      <recent name="D:\it-incubator-todolist-ts-01\src\stories" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="storybook" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="storybook" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.storybook" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -122,8 +90,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1631952119643</updated>
-      <workItem from="1631952146423" duration="13242000" />
+      <workItem from="1631952146423" duration="13553000" />
+      <workItem from="1632492948189" duration="4660000" />
+      <workItem from="1632497679991" duration="4836000" />
     </task>
+    <task id="LOCAL-00001" summary="update project, add axios, add requests for todoLists">
+      <created>1631982316139</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1631982316139</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,15 +117,42 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="update project, add axios, add requests for todoLists" />
+    <option name="LAST_COMMIT_MESSAGE" value="update project, add axios, add requests for todoLists" />
   </component>
   <component name="WindowStateProjectService">
     <state x="401" y="170" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1631966325562">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
     <state x="401" y="170" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1360.738@0.0.1360.738" timestamp="1631966325562" />
+    <state width="1338" height="177" key="GridCell.Tab.0.bottom" timestamp="1632497929097">
+      <screen x="0" y="0" width="1360" height="738" />
+    </state>
+    <state width="1338" height="177" key="GridCell.Tab.0.bottom/0.0.1360.738@0.0.1360.738" timestamp="1632497929097" />
+    <state width="1338" height="177" key="GridCell.Tab.0.center" timestamp="1632497929097">
+      <screen x="0" y="0" width="1360" height="738" />
+    </state>
+    <state width="1338" height="177" key="GridCell.Tab.0.center/0.0.1360.738@0.0.1360.738" timestamp="1632497929097" />
+    <state width="1338" height="177" key="GridCell.Tab.0.left" timestamp="1632497929096">
+      <screen x="0" y="0" width="1360" height="738" />
+    </state>
+    <state width="1338" height="177" key="GridCell.Tab.0.left/0.0.1360.738@0.0.1360.738" timestamp="1632497929096" />
+    <state width="1338" height="177" key="GridCell.Tab.0.right" timestamp="1632497929097">
+      <screen x="0" y="0" width="1360" height="738" />
+    </state>
+    <state width="1338" height="177" key="GridCell.Tab.0.right/0.0.1360.738@0.0.1360.738" timestamp="1632497929097" />
+    <state x="272" y="101" key="Vcs.Push.Dialog.v2" timestamp="1631982402719">
+      <screen x="0" y="0" width="1360" height="738" />
+    </state>
+    <state x="272" y="101" key="Vcs.Push.Dialog.v2/0.0.1360.738@0.0.1360.738" timestamp="1631982402719" />
+    <state x="336" y="159" key="run.anything.popup" timestamp="1632499645267">
+      <screen x="0" y="0" width="1360" height="738" />
+    </state>
+    <state x="336" y="159" key="run.anything.popup/0.0.1360.738@0.0.1360.738" timestamp="1632499645267" />
     <state x="343" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1631979541310">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
