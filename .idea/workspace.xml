@@ -19,12 +19,21 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1666d4de-ef45-4fe6-98a6-e189c1bdd00b" name="Default Changelist" comment="update project, add axios, add requests for todoLists">
-      <change afterPath="$PROJECT_DIR$/src/api/tasks-api.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/tasks-api.stories.tsx" afterDir="false" />
+    <list default="true" id="1666d4de-ef45-4fe6-98a6-e189c1bdd00b" name="Default Changelist" comment="update project, add requests for tasks with storybook">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ToDoList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ToDoList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/tasks-api.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/api/todolist-api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/todolist-api.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/state/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/store.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/state/tasks-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/tasks-reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/state/todolists-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/todolists-reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/tasks-api.stories.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/todolists-api.stories.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +101,10 @@
       <updated>1631952119643</updated>
       <workItem from="1631952146423" duration="13553000" />
       <workItem from="1632492948189" duration="4660000" />
-      <workItem from="1632497679991" duration="4836000" />
+      <workItem from="1632497679991" duration="4913000" />
+      <workItem from="1632661791602" duration="17317000" />
+      <workItem from="1632848620971" duration="12003000" />
+      <workItem from="1632924169926" duration="20640000" />
     </task>
     <task id="LOCAL-00001" summary="update project, add axios, add requests for todoLists">
       <created>1631982316139</created>
@@ -101,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631982316139</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update project, add requests for tasks with storybook">
+      <created>1632506714541</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1632506714541</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,40 +141,49 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="update project, add axios, add requests for todoLists" />
-    <option name="LAST_COMMIT_MESSAGE" value="update project, add axios, add requests for todoLists" />
+    <MESSAGE value="update project, add requests for tasks with storybook" />
+    <option name="LAST_COMMIT_MESSAGE" value="update project, add requests for tasks with storybook" />
   </component>
   <component name="WindowStateProjectService">
     <state x="401" y="170" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1631966325562">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
     <state x="401" y="170" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1360.738@0.0.1360.738" timestamp="1631966325562" />
-    <state width="1338" height="177" key="GridCell.Tab.0.bottom" timestamp="1632497929097">
+    <state x="410" y="115" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1632840716799">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
-    <state width="1338" height="177" key="GridCell.Tab.0.bottom/0.0.1360.738@0.0.1360.738" timestamp="1632497929097" />
-    <state width="1338" height="177" key="GridCell.Tab.0.center" timestamp="1632497929097">
+    <state x="410" y="115" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1360.738@0.0.1360.738" timestamp="1632840716799" />
+    <state width="1338" height="177" key="GridCell.Tab.0.bottom" timestamp="1632929399525">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
-    <state width="1338" height="177" key="GridCell.Tab.0.center/0.0.1360.738@0.0.1360.738" timestamp="1632497929097" />
-    <state width="1338" height="177" key="GridCell.Tab.0.left" timestamp="1632497929096">
+    <state width="1338" height="177" key="GridCell.Tab.0.bottom/0.0.1360.738@0.0.1360.738" timestamp="1632929399525" />
+    <state width="1338" height="177" key="GridCell.Tab.0.center" timestamp="1632929399524">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
-    <state width="1338" height="177" key="GridCell.Tab.0.left/0.0.1360.738@0.0.1360.738" timestamp="1632497929096" />
-    <state width="1338" height="177" key="GridCell.Tab.0.right" timestamp="1632497929097">
+    <state width="1338" height="177" key="GridCell.Tab.0.center/0.0.1360.738@0.0.1360.738" timestamp="1632929399524" />
+    <state width="1338" height="177" key="GridCell.Tab.0.left" timestamp="1632929399523">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
-    <state width="1338" height="177" key="GridCell.Tab.0.right/0.0.1360.738@0.0.1360.738" timestamp="1632497929097" />
-    <state x="272" y="101" key="Vcs.Push.Dialog.v2" timestamp="1631982402719">
+    <state width="1338" height="177" key="GridCell.Tab.0.left/0.0.1360.738@0.0.1360.738" timestamp="1632929399523" />
+    <state width="1338" height="177" key="GridCell.Tab.0.right" timestamp="1632929399524">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
-    <state x="272" y="101" key="Vcs.Push.Dialog.v2/0.0.1360.738@0.0.1360.738" timestamp="1631982402719" />
-    <state x="336" y="159" key="run.anything.popup" timestamp="1632499645267">
+    <state width="1338" height="177" key="GridCell.Tab.0.right/0.0.1360.738@0.0.1360.738" timestamp="1632929399524" />
+    <state x="272" y="101" key="Vcs.Push.Dialog.v2" timestamp="1632506724986">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
-    <state x="336" y="159" key="run.anything.popup/0.0.1360.738@0.0.1360.738" timestamp="1632499645267" />
-    <state x="343" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1631979541310">
+    <state x="272" y="101" key="Vcs.Push.Dialog.v2/0.0.1360.738@0.0.1360.738" timestamp="1632506724986" />
+    <state x="0" y="0" width="585" height="738" key="find.popup" timestamp="1632939862588">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
-    <state x="343" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1360.738@0.0.1360.738" timestamp="1631979541310" />
+    <state x="0" y="0" width="585" height="738" key="find.popup/0.0.1360.738@0.0.1360.738" timestamp="1632939862588" />
+    <state x="336" y="159" key="run.anything.popup" timestamp="1632931195205">
+      <screen x="0" y="0" width="1360" height="738" />
+    </state>
+    <state x="336" y="159" key="run.anything.popup/0.0.1360.738@0.0.1360.738" timestamp="1632931195205" />
+    <state x="343" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1632677244470">
+      <screen x="0" y="0" width="1360" height="738" />
+    </state>
+    <state x="343" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1360.738@0.0.1360.738" timestamp="1632677244470" />
   </component>
 </project>
