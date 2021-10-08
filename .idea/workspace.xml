@@ -19,26 +19,37 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1666d4de-ef45-4fe6-98a6-e189c1bdd00b" name="Default Changelist" comment="update project, add requests for tasks with storybook">
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+    <list default="true" id="1666d4de-ef45-4fe6-98a6-e189c1bdd00b" name="Default Changelist" comment="update project, add redux-thunk , refactoring code , add Thunk Creators , delete stories, reformat tasks-api.ts move to todolist-api.ts">
+      <change afterPath="$PROJECT_DIR$/src/features/TodoListsList/TodoList/Todolist.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/TodoListsList/TodoListsList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/TodoListsList/tasks-reducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/TodoListsList/todolists-reducer.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ToDoList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ToDoList.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/tasks-api.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AddItemForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AddItemForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EditableSpan.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/EditableSpan.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/TodoListsList/TodoList/Task/Task.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ToDoList.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/api/todolist-api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/todolist-api.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/state/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/store.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/state/tasks-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/tasks-reducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/state/todolists-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/todolists-reducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/tasks-api.stories.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/todolists-api.stories.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/state/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/store.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/state/tasks-reducer.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/state/todolists-reducer.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -67,12 +78,19 @@
     <property name="ts.external.directory.path" value="D:\it-incubator-todolist-ts-01\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\it-incubator-todolist-ts-01\src\features\TodoListsList" />
+      <recent name="D:\it-incubator-todolist-ts-01\src\app" />
+      <recent name="D:\it-incubator-todolist-ts-01\src\features\TodoListsList\TodoList\Task" />
+      <recent name="D:\it-incubator-todolist-ts-01\src\features\TodoListsList\TodoList" />
+      <recent name="D:\it-incubator-todolist-ts-01\src" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\it-incubator-todolist-ts-01\src\api" />
       <recent name="D:\it-incubator-todolist-ts-01\src\stories" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.storybook">
     <configuration name="storybook" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -83,8 +101,19 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.test" />
         <item itemvalue="npm.storybook" />
       </list>
     </recent_temporary>
@@ -104,7 +133,16 @@
       <workItem from="1632497679991" duration="4913000" />
       <workItem from="1632661791602" duration="17317000" />
       <workItem from="1632848620971" duration="12003000" />
-      <workItem from="1632924169926" duration="20640000" />
+      <workItem from="1632924169926" duration="20951000" />
+      <workItem from="1633096995909" duration="1541000" />
+      <workItem from="1633116315895" duration="1781000" />
+      <workItem from="1633118469126" duration="5666000" />
+      <workItem from="1633127063403" duration="44000" />
+      <workItem from="1633351192157" duration="983000" />
+      <workItem from="1633522895316" duration="68000" />
+      <workItem from="1633611074248" duration="15754000" />
+      <workItem from="1633643527819" duration="7000" />
+      <workItem from="1633707483103" duration="1399000" />
     </task>
     <task id="LOCAL-00001" summary="update project, add axios, add requests for todoLists">
       <created>1631982316139</created>
@@ -120,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632506714541</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update project, add redux-thunk , refactoring code , add Thunk Creators , delete stories, reformat tasks-api.ts move to todolist-api.ts">
+      <created>1632948644324</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1632948644324</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,7 +187,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="update project, add axios, add requests for todoLists" />
     <MESSAGE value="update project, add requests for tasks with storybook" />
-    <option name="LAST_COMMIT_MESSAGE" value="update project, add requests for tasks with storybook" />
+    <MESSAGE value="update project, add redux-thunk , refactoring code , add Thunk Creators , delete stories, reformat tasks-api.ts move to todolist-api.ts" />
+    <option name="LAST_COMMIT_MESSAGE" value="update project, add redux-thunk , refactoring code , add Thunk Creators , delete stories, reformat tasks-api.ts move to todolist-api.ts" />
   </component>
   <component name="WindowStateProjectService">
     <state x="401" y="170" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1631966325562">
@@ -153,30 +199,30 @@
       <screen x="0" y="0" width="1360" height="738" />
     </state>
     <state x="410" y="115" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1360.738@0.0.1360.738" timestamp="1632840716799" />
-    <state width="1338" height="177" key="GridCell.Tab.0.bottom" timestamp="1632929399525">
+    <state width="1338" height="177" key="GridCell.Tab.0.bottom" timestamp="1633643492313">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
-    <state width="1338" height="177" key="GridCell.Tab.0.bottom/0.0.1360.738@0.0.1360.738" timestamp="1632929399525" />
-    <state width="1338" height="177" key="GridCell.Tab.0.center" timestamp="1632929399524">
+    <state width="1338" height="177" key="GridCell.Tab.0.bottom/0.0.1360.738@0.0.1360.738" timestamp="1633643492313" />
+    <state width="1338" height="177" key="GridCell.Tab.0.center" timestamp="1633643492312">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
-    <state width="1338" height="177" key="GridCell.Tab.0.center/0.0.1360.738@0.0.1360.738" timestamp="1632929399524" />
-    <state width="1338" height="177" key="GridCell.Tab.0.left" timestamp="1632929399523">
+    <state width="1338" height="177" key="GridCell.Tab.0.center/0.0.1360.738@0.0.1360.738" timestamp="1633643492312" />
+    <state width="1338" height="177" key="GridCell.Tab.0.left" timestamp="1633643492312">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
-    <state width="1338" height="177" key="GridCell.Tab.0.left/0.0.1360.738@0.0.1360.738" timestamp="1632929399523" />
-    <state width="1338" height="177" key="GridCell.Tab.0.right" timestamp="1632929399524">
+    <state width="1338" height="177" key="GridCell.Tab.0.left/0.0.1360.738@0.0.1360.738" timestamp="1633643492312" />
+    <state width="1338" height="177" key="GridCell.Tab.0.right" timestamp="1633643492312">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
-    <state width="1338" height="177" key="GridCell.Tab.0.right/0.0.1360.738@0.0.1360.738" timestamp="1632929399524" />
-    <state x="272" y="101" key="Vcs.Push.Dialog.v2" timestamp="1632506724986">
+    <state width="1338" height="177" key="GridCell.Tab.0.right/0.0.1360.738@0.0.1360.738" timestamp="1633643492312" />
+    <state x="272" y="101" key="Vcs.Push.Dialog.v2" timestamp="1632948665854">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
-    <state x="272" y="101" key="Vcs.Push.Dialog.v2/0.0.1360.738@0.0.1360.738" timestamp="1632506724986" />
-    <state x="0" y="0" width="585" height="738" key="find.popup" timestamp="1632939862588">
+    <state x="272" y="101" key="Vcs.Push.Dialog.v2/0.0.1360.738@0.0.1360.738" timestamp="1632948665854" />
+    <state x="0" y="0" width="585" height="738" key="find.popup" timestamp="1633707608981">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
-    <state x="0" y="0" width="585" height="738" key="find.popup/0.0.1360.738@0.0.1360.738" timestamp="1632939862588" />
+    <state x="0" y="0" width="585" height="738" key="find.popup/0.0.1360.738@0.0.1360.738" timestamp="1633707608981" />
     <state x="336" y="159" key="run.anything.popup" timestamp="1632931195205">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
