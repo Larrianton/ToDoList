@@ -19,24 +19,27 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1666d4de-ef45-4fe6-98a6-e189c1bdd00b" name="Default Changelist" comment="update project, add redux-thunk , refactoring code , add Thunk Creators , delete stories, reformat tasks-api.ts move to todolist-api.ts">
-      <change afterPath="$PROJECT_DIR$/src/features/TodoListsList/TodoList/Todolist.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/TodoListsList/TodoListsList.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/TodoListsList/tasks-reducer.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/features/TodoListsList/todolists-reducer.ts" afterDir="false" />
+    <list default="true" id="1666d4de-ef45-4fe6-98a6-e189c1bdd00b" name="Default Changelist" comment="refactoring code style , change structure">
+      <change afterPath="$PROJECT_DIR$/src/api/todolists-api.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/app-reducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/AddItemForm/AddItemForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/EditableSpan/EditableSpan.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SnackBar/ErrorSnackBar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/error-utils.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AddItemForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AddItemForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EditableSpan.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/EditableSpan.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/TodoListsList/TodoList/Task/Task.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ToDoList.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/todolist-api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/todolist-api.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/todolist-api.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/store.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AddItemForm.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/EditableSpan.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/TodoListsList/TodoList/Task/Task.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/TodoListsList/TodoList/Task/Task.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/TodoListsList/TodoList/Todolist.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/TodoListsList/TodoList/Todolist.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/TodoListsList/TodoListsList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/TodoListsList/TodoListsList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/TodoListsList/tasks-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/TodoListsList/tasks-reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/TodoListsList/todolists-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/TodoListsList/todolists-reducer.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/state/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/store.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/state/tasks-reducer.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/state/todolists-reducer.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,16 +81,16 @@
     <property name="ts.external.directory.path" value="D:\it-incubator-todolist-ts-01\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\it-incubator-todolist-ts-01\src\api" />
+      <recent name="D:\it-incubator-todolist-ts-01\src\stories" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\it-incubator-todolist-ts-01\src\features\TodoListsList" />
       <recent name="D:\it-incubator-todolist-ts-01\src\app" />
       <recent name="D:\it-incubator-todolist-ts-01\src\features\TodoListsList\TodoList\Task" />
       <recent name="D:\it-incubator-todolist-ts-01\src\features\TodoListsList\TodoList" />
       <recent name="D:\it-incubator-todolist-ts-01\src" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\it-incubator-todolist-ts-01\src\api" />
-      <recent name="D:\it-incubator-todolist-ts-01\src\stories" />
     </key>
   </component>
   <component name="RunManager" selected="npm.storybook">
@@ -142,7 +145,12 @@
       <workItem from="1633522895316" duration="68000" />
       <workItem from="1633611074248" duration="15754000" />
       <workItem from="1633643527819" duration="7000" />
-      <workItem from="1633707483103" duration="1399000" />
+      <workItem from="1633707483103" duration="1553000" />
+      <workItem from="1633709112363" duration="347000" />
+      <workItem from="1633795180422" duration="175000" />
+      <workItem from="1633795412694" duration="1747000" />
+      <workItem from="1633797879010" duration="10586000" />
+      <workItem from="1633878545559" duration="5322000" />
     </task>
     <task id="LOCAL-00001" summary="update project, add axios, add requests for todoLists">
       <created>1631982316139</created>
@@ -165,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632948644324</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="refactoring code style , change structure">
+      <created>1633709040513</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1633709040513</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,7 +203,8 @@
     <MESSAGE value="update project, add axios, add requests for todoLists" />
     <MESSAGE value="update project, add requests for tasks with storybook" />
     <MESSAGE value="update project, add redux-thunk , refactoring code , add Thunk Creators , delete stories, reformat tasks-api.ts move to todolist-api.ts" />
-    <option name="LAST_COMMIT_MESSAGE" value="update project, add redux-thunk , refactoring code , add Thunk Creators , delete stories, reformat tasks-api.ts move to todolist-api.ts" />
+    <MESSAGE value="refactoring code style , change structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring code style , change structure" />
   </component>
   <component name="WindowStateProjectService">
     <state x="401" y="170" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1631966325562">
@@ -215,10 +231,10 @@
       <screen x="0" y="0" width="1360" height="738" />
     </state>
     <state width="1338" height="177" key="GridCell.Tab.0.right/0.0.1360.738@0.0.1360.738" timestamp="1633643492312" />
-    <state x="272" y="101" key="Vcs.Push.Dialog.v2" timestamp="1632948665854">
+    <state x="272" y="101" key="Vcs.Push.Dialog.v2" timestamp="1633795252241">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
-    <state x="272" y="101" key="Vcs.Push.Dialog.v2/0.0.1360.738@0.0.1360.738" timestamp="1632948665854" />
+    <state x="272" y="101" key="Vcs.Push.Dialog.v2/0.0.1360.738@0.0.1360.738" timestamp="1633795252241" />
     <state x="0" y="0" width="585" height="738" key="find.popup" timestamp="1633707608981">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
@@ -227,9 +243,9 @@
       <screen x="0" y="0" width="1360" height="738" />
     </state>
     <state x="336" y="159" key="run.anything.popup/0.0.1360.738@0.0.1360.738" timestamp="1632931195205" />
-    <state x="343" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1632677244470">
+    <state x="343" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1633880009727">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
-    <state x="343" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1360.738@0.0.1360.738" timestamp="1632677244470" />
+    <state x="343" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1360.738@0.0.1360.738" timestamp="1633880009727" />
   </component>
 </project>
